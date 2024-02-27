@@ -1,9 +1,10 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-main-body',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './main-body.component.html',
   styleUrl: './main-body.component.css'
 })

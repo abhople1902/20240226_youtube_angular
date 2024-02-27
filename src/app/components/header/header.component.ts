@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
-import { DropdownComponent } from '../dropdown/dropdown.component';
+import {MatMenuModule} from '@angular/material/menu';
+import {MatButtonModule} from '@angular/material/button';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [DropdownComponent],
+  imports: [MatButtonModule, MatMenuModule],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
